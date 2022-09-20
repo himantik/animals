@@ -22,6 +22,7 @@ public class Main {
       System.out.println(w.getClass().getName());
       w.hunt();
       w.vocalize();
+
       // Another way to do it would be Dog d = (Dog) w; ((Dog)w).rollOver();
       if (w instanceof Dog) {
         ((Dog)w).rollOver();

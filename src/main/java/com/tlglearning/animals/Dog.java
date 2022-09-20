@@ -16,6 +16,6 @@ public class Dog extends Wolf {
     System.out.println("I am a dog");
   }
   public void rollOver(){
-    System.out.println("I am rolling over!");
+    System.out.println("I am jumping up! Somebody catch me");
   }
 }
